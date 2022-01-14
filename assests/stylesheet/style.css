@@ -242,3 +242,77 @@ h2 {
   border: 2px solid #333;
   box-sizing: border-box;
 }
+
+/* BLOG PAGE */
+img {
+  width: 100%;
+}
+.blog-hero {
+  font-size: 0;
+  vertical-align: middle;
+  margin-top: 70px;
+}
+
+.blog-hero-header {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+}
+h3 {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0d1430;
+}
+.blog-hero-article {
+  display: inline-block;
+  font-size: 16px;
+  width: 45%;
+  margin-left: 47px;
+}
+
+.read-more {
+  background: rgb(16, 88, 16);
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 24px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.read-more:hover {
+  background: rgb(25, 136, 25);
+}
+
+/* blogs section */
+.blogs {
+  margin: 60px 0;
+  font-size: 0;
+}
+
+.blogs article {
+  display: inline-block;
+  width: 45%;
+  font-size: 16px;
+}
+
+.blog1 {
+  vertical-align: top;
+}
+
+.blog2 {
+  margin-left: 47px;
+}
+
+.blogs p {
+  margin-bottom: 24px;
+}
+
+.learn-more {
+  color: green;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
