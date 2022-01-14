@@ -127,3 +127,25 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+}
+
+header {
+  background: darkslateblue;
+  text-align: center;
+  padding: 24px;
+}
+
+header a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 16px;
+  text-decoration: none;
+}
+header a:focus {
+  color: yellowgreen;
+}
