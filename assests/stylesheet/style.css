@@ -214,3 +214,31 @@ h2 {
 .margin {
   background: #90ffa9;
 }
+
+/* desc section */
+.desc {
+  text-align: center;
+  padding: 24px;
+}
+.box-container {
+  width: 660px;
+  border: 2px solid #333;
+  margin: 0 auto;
+  font-size: 0;
+}
+.ex2-box {
+  width: 200px;
+  height: 180px;
+  display: inline-block;
+  background: #99d8c8;
+  margin: 10px;
+}
+
+.desc hr {
+  margin: 90px auto;
+}
+
+.border-ar {
+  border: 2px solid #333;
+  box-sizing: border-box;
+}
