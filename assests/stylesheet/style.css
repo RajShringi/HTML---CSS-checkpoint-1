@@ -133,19 +133,84 @@ body {
   line-height: 1.5;
 }
 
-header {
+.container {
+  width: 1160px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+hr {
+  border-style: dashed;
+  border-color: rgb(161, 161, 161);
+  width: 700px;
+}
+
+/* header section */
+
+.nav-header {
   background: darkslateblue;
   text-align: center;
   padding: 24px;
 }
 
-header a {
+.nav-header a {
   color: #fff;
   font-size: 24px;
   font-weight: bold;
   margin: 0 16px;
   text-decoration: none;
 }
-header a:focus {
+.nav-header a:focus {
   color: yellowgreen;
+}
+
+/* hero section */
+.hero {
+  padding: 24px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 16px 0;
+}
+h2 {
+  font-size: 24px;
+  margin: 60px 0;
+}
+.box {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background: #99d8c8;
+  border: 15px solid #5873e2;
+  outline: 10px solid #0d1430;
+  box-shadow: 0 0 0 30px #90ffa9;
+  border-radius: 5px;
+}
+
+.info-container {
+  margin: 60px 0;
+}
+.info-color {
+  background: #99d8c8;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 18px;
+}
+
+.padding {
+  background: #5873e2;
+}
+
+.border {
+  background: #0d1430;
+}
+
+.margin {
+  background: #90ffa9;
 }
